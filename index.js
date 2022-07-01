@@ -1,6 +1,7 @@
 import './style.css';
 let localName = '';
 
+// from https://github.com/wild-times/vnet-signal
 const signalServerUrl = (code) => `ws://${window.location.hostname}:8000/sig/chn/${code}/`;
 
 const signalTypes = {
