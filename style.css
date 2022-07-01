@@ -1,0 +1,13 @@
+.h {
+    display: none;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.streams > video {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Signaling 101</title>
+</head>
+<body>
+
+    <h1>Signaling 101</h1>
+    <span>Signal server status: <span id="sig-status">Disconnected</span></span>
+    <form name="name-form">
+        <label for="xname">Enter name</label>
+        <input type="text" name="cl-name" id="xname">
+        <input type="submit" value="use name">
+    </form>
+    <div id="gen-code">
+        <h2 id="code"></h2>
+        <button class="btn btn-primary" id="gen">generate code and join</button>
+    </div>
+    <br>
+    <form name="join">
+        <label for="join-input">Enter join code</label>
+        <input id="join-input" type="number" class="form-control" name="join-code">
+        <input type="submit" class="btn btn-primary" value="join with code">
+    </form>
+    <br>
+
+    <div class="videos">
+        <div id="me" class="streams"></div>
+        <div id="others" class="streams"></div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
